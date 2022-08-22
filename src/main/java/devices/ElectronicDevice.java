@@ -1,3 +1,5 @@
+package devices;
+
 public abstract class ElectronicDevice {
 
     private String brand;
@@ -14,5 +16,13 @@ public abstract class ElectronicDevice {
 
     public String turnOff() {
         return "Poof...";
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
     }
 }

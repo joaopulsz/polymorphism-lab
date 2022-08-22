@@ -1,3 +1,7 @@
+package devices;
+
+import devices.ElectronicDevice;
+
 public class Computer extends ElectronicDevice {
 
     private String operatingSystem;

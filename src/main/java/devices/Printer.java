@@ -1,3 +1,7 @@
+package devices;
+
+import devices.ElectronicDevice;
+
 public class Printer extends ElectronicDevice {
 
     private String resolution;
