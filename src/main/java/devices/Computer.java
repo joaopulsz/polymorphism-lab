@@ -9,9 +9,9 @@ public class Computer extends ElectronicDevice {
     private int memory;
     private int storage;
 
-    public Computer(String brand, double price, String operatingSystem, String chip, int memory, int storage) {
+    public Computer(String brand, String name, double price, String operatingSystem, String chip, int memory, int storage) {
 
-        super(brand, price);
+        super(brand, name, price);
         this.operatingSystem = operatingSystem;
         this.chip = chip;
         this.memory = memory;
@@ -36,5 +36,9 @@ public class Computer extends ElectronicDevice {
 
     public String createSpreadsheet() {
         return "Type here.";
+    }
+
+    public String turnOn() {
+        return "Welcome back, please enter your password.";
     }
 }
